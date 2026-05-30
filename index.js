@@ -12,6 +12,7 @@ const CREDENTIALS = JSON.parse(process.env.GOOGLE_CREDENTIALS);
 const OPERATORI = {
   '8691290397': 'Adam Vaněrka',      // nahraď skutečnými ID
   '2047584695': 'Michal Matula',
+  '8652125609': 'Petr Křenek',
 };
 
 const PROGRAMY = ['P1', 'P2', 'P3'];
