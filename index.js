@@ -4,6 +4,7 @@ const { google } = require('googleapis');
 // ── Konfigurace ───────────────────────────────────────────
 const TOKEN = process.env.TELEGRAM_TOKEN;
 const SHEET_ID = process.env.SHEET_ID;
+console.log('SHEET_ID:', JSON.stringify(SHEET_ID));
 const CREDENTIALS = JSON.parse(process.env.GOOGLE_CREDENTIALS);
 
 // ── Mapování Telegram ID → jméno operátora ────────────────
