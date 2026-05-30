@@ -15,7 +15,7 @@ const OPERATORI = {
   '8652125609': 'Petr Křenek',
 };
 
-const PROGRAMY = ['P1', 'P2', 'P3'];
+const PROGRAMY = ['P1', 'P2', 'P3', 'RECYKLÁT'];
 const BEDNY = Array.from({length: 15}, (_, i) => String(i + 1));
 
 // ── Stav konverzace ───────────────────────────────────────
