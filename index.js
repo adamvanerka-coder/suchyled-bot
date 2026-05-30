@@ -35,7 +35,7 @@ async function zapisDoSheets(data) {
   const cas   = now.toLocaleTimeString('cs-CZ', { hour: '2-digit', minute: '2-digit' });
   await sheets.spreadsheets.values.append({
     spreadsheetId: SHEET_ID,
-    range: 'Sheet1!A:G',
+    range: 'Evidence!A:G',
     valueInputOption: 'USER_ENTERED',
     resource: { values: [[datum, cas, data.operator, data.program, data.bedna, data.kg, '']] },
   });
