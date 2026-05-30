@@ -9,8 +9,8 @@ const CREDENTIALS = JSON.parse(process.env.GOOGLE_CREDENTIALS);
 // ── Mapování Telegram ID → jméno operátora ────────────────
 // Po prvním /start každého operátora přidej jeho ID sem:
 const OPERATORI = {
-  '123456789': 'Petr Novák',      // nahraď skutečnými ID
-  '987654321': 'Jana Svobodová',
+  '8691290397': 'Adam Vaněrka',      // nahraď skutečnými ID
+  '2047584695': 'Michal Matula',
 };
 
 const PROGRAMY = ['P1', 'P2', 'P3'];
